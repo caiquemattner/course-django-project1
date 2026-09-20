@@ -10,7 +10,7 @@
     "--errors-only"
   ],
   "python.formatting.autopep8Args": ["--indent-size=4"],
-  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
   "[python]": {
     "editor.defaultFormatter": "ms-python.python", // ms-python.python
     "editor.tabSize": 4,
